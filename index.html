@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yanilson Moreno - Desarrollador de Software</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<script src="/script/modal.js"></script>
+
+<nav class="sticky-menu">
+    <ul>
+        <li><a href="#informacion_personal">Sobre mí</a></li>
+        <li><a href="#educacion_certificados">Educación</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#email">Email</a></li>
+    </ul>
+</nav>
+
+<body>
+    <div class="container">
+        <!-- Sección de Encabezado -->
+        <header id="seccion_encabezado" class="header-section">
+            <div class="header-content">
+                <h1>Yanilson Moreno Ramos</h1>
+                <h2>Desarrollador de Software</h2>
+                <p class="tagline">"🚀 Innovación que se compila."</p>
+            </div>
+        </header>
+
+        <!-- Sección de Información Personal -->
+        <section id="informacion_personal" class="card">
+            <div class="section-header">
+                <h3>Sobre mí</h3>
+                <div class="divider"></div>
+            </div>
+            <div class="content-wrapper">
+                <p class="about-text">Ingeniero en formación y desarrollador junior con competencias en Java, Python y
+                    RPA. Comprometido con la implementación de soluciones escalables y de alta eficiencia, siguiendo
+                    estándares de calidad en el desarrollo de software.</p>
+                <div class="cv-download">
+                    <a href="/docs/Hoja_de_Vida_Yanilson.pdf" download class="cv-button">
+                        <i class="bi bi-download"></i> Descargar CV
+                    </a>
+                    <a href="/docs/EF SET Certificate yanilsom.pdf" download class="cv-button">
+                        <i class="bi bi-download"></i>Certificado Ingles
+                    </a>
+                </div>
+                <div class="skills-container">
+                    <h4>Lenguajes principales:</h4>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <img src="/img/python.svg" alt="Python" class="skill-icon">
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="/img/java.svg" alt="Java" class="skill-icon">
+                            <span>Java</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-container">
+                    <h4>Tecnologías principales:</h4>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span>Selenium</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>Excel</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>Postgret</span>
+                        </div>
+                    </div>
+                    <div class="skills-container">
+                        <h4>Estoy aprendiendo</h4>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <span>UI-Path</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Sección de Educación -->
+        <section id="educacion_certificados" class="card">
+            <div class="section-header">
+                <h3>Educación y certificados 🖊️🎓</h3>
+                <div class="divider"></div>
+            </div>
+            <div class="content-wrapper">
+                <div class="education-item">
+                    <h4>Ingeniería en Software</h4>
+                    <p class="institution">ITM <span class="date">2023 - Actualidad</span></p>
+                    <p class="description">En esta sección podrás ver todos mis certificados con diferentes plataformas
+                        virtuales de tecnología.</p>
+                </div>
+
+                <div class="certificates-link">
+                    <a href="https://drive.google.com/drive/folders/1uTVr8GZ332Em0UK4_-OKQVbFHwiF1c7x?usp=drive_link"
+                        target="_blank" class="drive-button">
+                        <img src="/img/drive.svg" alt="Google Drive" class="drive-icon">
+                        <span>Ver certificados</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion proyecto -->
+        <section id="proyectos" class="card">
+            <div class="section-header">
+                <h3>Proyectos destacados</h3>
+                <div class="divider"></div>
+            </div>
+            <div class="content-wrapper project-grid">
+
+                <!-- Proyecto individual -->
+                <div class="project-card">
+                    <a href="https://github.com/YanilsonMR/bot-noticias" target="_blank">
+                        <img src="/img/proyecto2.png" alt="Proyecto 2">
+                    </a>
+                    <h4 class="project-title">GeminiNewsBot</h4>
+                    <div class="tech-tags">
+                        <span class="tech-item">Python</span>
+                        <span class="tech-item">Selenium</span>
+                        <span class="tech-item">Excel</span>
+                        <br>
+                        <p>Aplicación que automatiza la recolección de noticias desde ElTiempo.com,
+                            analiza su contenido con la API de Gemini de Google y filtra aquellas relacionadas con
+                            Estados Unidos.
+                            Las noticias relevantes se resumen y se exportan automáticamente a un archivo Excel listo
+                            para informes o análisis posteriores.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <a href="https://github.com/YanilsonMR/WILLBOX" target="_blank">
+                        <img src="/img/proyecto 1.png" alt="Proyecto 1">
+                    </a>
+                    <h4 class="project-title">Will Box</h4>
+                    <div class="tech-tags">
+                        <span class="tech-item">JS</span>
+                        <span class="tech-item">CSS</span>
+                        <span class="tech-item">HTML</span>
+                        <br>
+                        <p>WillBox – Tu asistente financiero personal
+                            WillBox es una aplicación web diseñada para ayudarte a analizar, organizar y monitorear tus
+                            ingresos y egresos de manera clara y eficiente.
+                            Ideal para llevar el control de tus finanzas personales con una interfaz simple, intuitiva y
+                            funcional.
+
+                        </p>
+                    </div>
+                </div>
+                <!-- Puedes duplicar este bloque para más proyectos -->
+            </div>
+        </section>
+
+        <!-- Seccion experiencia -->
+        <section id="experiencia" class="card">
+            <div class="section-header">
+                <h3>Experiencia profesional</h3>
+                <div class="divider"></div>
+            </div>
+            <div class="content-wrapper">
+                <!-- Contenido de experiencia aquí -->
+                <p class="coming-soon">...aún no tengo experiencia formal, pero ya me peleé con bugs lo suficientemente
+                    grandes como para merecer una medalla. 🐞💥</p>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto" class="card">
+            <div class="section-header">
+                <h3>Te puede interesar</h3>
+                <div class="divider"></div>
+            </div>
+            <div class="content-wrapper">
+                <p>¿Quieres conocer más sobre mi trabajo? Encuéntrame aquí.</p>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/yanilson-moreno-ramos-855ab4244" target="_blank"
+                        class="contact-item">
+                        <img src="/img/linkedin.svg" alt="LinkedIn" class="contact-icon">
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/YanilsonMR" target="_blank" class="contact-item">
+                        <img src="/img/github_dark.svg" alt="GitHub" class="contact-icon">
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Seccion contacto (email)-->
+        <section id="email" class="card">
+            <div class="section-header">
+                <h3>Contacto</h3>
+            </div>
+            <div id="contactModal" class="modal">
+                <div class="modal-content">
+                    <h3>Enviar mensaje</h3>
+                    <form id="contactForm" action="https://formspree.io/f/mwplzokb" method="POST">
+                        <input type="text" name="nombre" placeholder="Nombre" id="contact-name">
+                        <input type="email" name="correo" placeholder="Tu correo" id="contact-email">
+                        <input type="text" name="asunto" placeholder="Asunto" id="contact-asunto">
+                        <textarea name="text" id="contact-text" placeholder="Mensaje"></textarea>
+                        <button type="submit">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
